@@ -11,9 +11,9 @@ class Footer extends Component {
                         <p>Developed by Aryan Goyal &copy; All rights reserved.</p>
                     </div>
                     <div className="cstm-icons">
-                    <i class="fab fa-facebook-square"></i>
-                    <i class="fab fa-google-plus-square"></i>
-                    <i class="fab fa-twitter-square"></i>
+                    <i className="fab fa-facebook-square"></i>
+                    <i className="fab fa-google-plus-square"></i>
+                    <i className="fab fa-twitter-square"></i>
                     </div>
                </div>
             </div>

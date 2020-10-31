@@ -29,10 +29,10 @@ class Header extends Component {
                 <div className="nav-items">
                     <ul>
                     <Link to="/home"><li onClick={this.getActiveClass} value="0" className="nav-tab">Home</li></Link>
-                        <li onClick={this.getActiveClass} value="1" className="nav-tab">Geeta Jayanti Mahotsav</li>
-                        <li onClick={this.getActiveClass} value="2" className="nav-tab">Tourism After COVID-19</li>
-                        <li onClick={this.getActiveClass} value="3" className="nav-tab">Feedback</li>
-                        <li onClick={this.getActiveClass} value="4" className="nav-tab">Contact us</li>
+                    <li onClick={this.getActiveClass} value="1" className="nav-tab">Geeta Jayanti Mahotsav</li>
+                    <Link to="/covid"><li onClick={this.getActiveClass} value="2" className="nav-tab">Tourism After COVID-19</li></Link>    
+                    <li onClick={this.getActiveClass} value="3" className="nav-tab">Feedback</li>
+                    <li onClick={this.getActiveClass} value="4" className="nav-tab">Contact us</li>
                     </ul>
                 </div>
             </div>
