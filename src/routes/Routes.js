@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
 import Covid from '../components/covid/Covid';
 import Footer from '../components/footer/Footer';
 import Header from '../components/header/Header';
@@ -23,6 +23,7 @@ class Routes extends Component {
                     <Route path="/register" component={Register}/>
                     <Route path="/home" component={Home} />
                     <Route path="/covid" component={Covid} />
+                    <Redirect from="/" to="/home" />
                 </Switch>
             <Footer/>
             </BrowserRouter>
