@@ -39,7 +39,7 @@ const PieChart = (props) => {
     series.hiddenState.properties.endAngle = -90;
     chartP.logo.disabled = true;
     series.slices.template.cornerRadius = 0;
-    // chartP.radius = am4core.percent(60);
+    // chartP.radius = am4core.percent(80);
 
     },500)
 
