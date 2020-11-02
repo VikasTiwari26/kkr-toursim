@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import api from '../../api/Api';
 import PieChart from '../../utils/piechart';
 import XYChart from '../../utils/XYchart';
+import "./Covid.css"
 
 class Covid extends Component {
     state = { 

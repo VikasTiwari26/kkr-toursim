@@ -9,15 +9,7 @@ const XYChart = (props) => {
     console.log(covidData)
     setTimeout(()=>{
         let chartXY = am4core.create("xy-chart",am4charts.XYChart)
-        // let data = [];
-        // let visits = 10;
-        // for (var i = 1; i < 50000; i++) {
-        //     visits += Math.round((Math.random() < 0.5 ? 1 : -1) * Math.random() * 10);
-        //     data.push({ date: new Date(2018, 0, i), value: visits });
-        // }
-
         chartXY.data =covidData;
-        // console.log(data)
 
 let dateAxis = chartXY.xAxes.push(new am4charts.DateAxis());
 dateAxis.renderer.grid.template.location = 0;
@@ -36,12 +28,33 @@ series.dataFields.valueY = "value";
 series.tooltipText = "{valueY}";
 series.tooltip.pointerOrientation = "vertical";
 series.tooltip.background.fillOpacity = 0.5;
+valueAxis.min = 0;
+valueAxis.max = 100000;
+valueAxis.strictMinMax = true;
+// valueAxis.renderer.minGridDistance =20;
 
 chartXY.cursor = new am4charts.XYCursor();
 chartXY.cursor.xAxis = dateAxis;
 
 chartXY.logo.disabled = true;
+valueAxis.renderer.grid.template.disabled = true;
+valueAxis.renderer.labels.template.disabled = true;
 
+function createGrid(value) {
+    let range = valueAxis.axisRanges.create();
+    range.value = value;
+    range.label.text = "{value}";
+  }
+createGrid(10000)
+createGrid(20000)
+createGrid(30000)
+createGrid(40000)
+createGrid(50000)
+createGrid(60000)
+createGrid(70000)
+createGrid(80000)
+createGrid(90000)
+createGrid(100000)
     },500)
     return ( 
         <div id="xy-chart"></div>
