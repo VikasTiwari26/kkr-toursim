@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
 import ContactUs from '../components/contact/ContactUs';
 import Covid from '../components/covid/Covid';
+import Feedback from '../components/feedback/Feedback';
 import Footer from '../components/footer/Footer';
 import Header from '../components/header/Header';
 import Home from '../components/home/Home';
@@ -26,6 +27,7 @@ class Routes extends Component {
                     <Route path="/covid" component={Covid} />
                     <Route path="/contact" component={ContactUs} />
                     <Route path="/tourist-spot" component={TouristSpot} />
+                    <Route path="/feedback" component={Feedback} />
                     <Redirect from="/" to="/home" />
                 </Switch>
             <Footer/>

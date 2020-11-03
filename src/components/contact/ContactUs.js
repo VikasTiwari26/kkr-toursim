@@ -15,19 +15,19 @@ class ContactUs extends Component {
               <div className="contact-cntnr">
                     <form>
                         <div className="form-group">
-                            <input placeholder="Full name" type="text"/>
+                            <input className="contact-input" placeholder="Full name" type="text"/>
                         </div>
                         <div className="form-group">
-                            <input placeholder="Phone Number" type="number"/>
+                            <input className="contact-input" placeholder="Phone Number" type="number"/>
                         </div>
                         <div className="form-group">
-                            <input placeholder="Email" type="text"/>
+                            <input className="contact-input" placeholder="Email" type="text"/>
                         </div>
                         <div className="form-group">
-                            <textarea placeholder="Your query"></textarea>
+                            <textarea className="contact-input" placeholder="Your query"></textarea>
                         </div>
                        <div className="btn-cntnr">
-                            <button>Submit</button>
+                            <button className="button-contact">Submit</button>
                        </div>
                     </form>
                 </div>
