@@ -1,3 +1,32 @@
 #xy-chart {
   height: 20rem;
+  width: 90%;
+  margin: auto;
+}
+.div1,
+.precautions,
+.kkrCovid,
+.GitaJaynti {
+  width: 90%;
+  margin: auto;
+  margin-top: 3%;
+  font-size: large;
+}
+.precList {
+  display: block;
+  /* cursor: pointer; */
+  /* color: #818181; */
+  color: #000000;
+}
+.precList li {
+  list-style: circle;
+}
+.precList li:hover {
+  color: #000000;
+}
+h2 {
+  margin-left: 5%;
+}
+h3 {
+  text-align: center;
 }
