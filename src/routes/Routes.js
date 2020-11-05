@@ -4,6 +4,7 @@ import ContactUs from '../components/contact/ContactUs';
 import Covid from '../components/covid/Covid';
 import Feedback from '../components/feedback/Feedback';
 import Footer from '../components/footer/Footer';
+import GeetaJayanti from '../components/GeetaJayanti/GeetaJayanti';
 import Header from '../components/header/Header';
 import Home from '../components/home/Home';
 import Login from '../components/login/Login';
@@ -28,6 +29,7 @@ class Routes extends Component {
                     <Route path="/contact" component={ContactUs} />
                     <Route path="/tourist-spot" component={TouristSpot} />
                     <Route path="/feedback" component={Feedback} />
+                    <Route path="/geeta-jayanti" component={GeetaJayanti} />
                     <Redirect from="/" to="/home" />
                 </Switch>
             <Footer/>

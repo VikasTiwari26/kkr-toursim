@@ -12,6 +12,8 @@ import tirupatiBalaji from "./touristSpot/tirupati_temple1.jpeg"
 import jyotisar from "./touristSpot/jyotisar.jpeg"
 import panorama from "./touristSpot/panorma1.jpg"
 import feedbackBg from "./bg.jpg"
+import gitaJayantiPic1 from "./gitaJayanti/img1.jpeg"
+import gitaJayantiPic2 from "./gitaJayanti/img2.jpg"
 
 export {
     icon,
@@ -27,5 +29,7 @@ export {
     tirupatiBalaji,
     jyotisar,
     panorama,
-    feedbackBg
+    feedbackBg,
+    gitaJayantiPic1,
+    gitaJayantiPic2
 }

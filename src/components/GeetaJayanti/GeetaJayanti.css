@@ -1,0 +1,26 @@
+.main-gita-jynti-cntnr {
+  width: 95%;
+  margin: auto;
+  font-size: 1.25rem;
+}
+.title-gita-jynti {
+  text-align: center;
+}
+h4 {
+  font-size: 1.5rem;
+}
+.info-list {
+  display: block;
+}
+.info-list li {
+  list-style: disc;
+}
+.info-list li:hover {
+  color: #818181;
+}
+.competetions-org {
+}
+.image-cntnr img {
+  width: 100%;
+  margin: auto;
+}
