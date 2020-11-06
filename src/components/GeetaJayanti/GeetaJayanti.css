@@ -24,3 +24,11 @@ h4 {
   width: 100%;
   margin: auto;
 }
+.cultural-programs,
+.laser-show {
+  color: blue;
+}
+.about-gita-jynti {
+  margin-left: 5%;
+  margin-right: 5%;
+}
