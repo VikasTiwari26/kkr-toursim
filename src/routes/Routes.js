@@ -12,10 +12,13 @@ import Register from '../components/register/Register';
 import TouristSpot from '../components/TouristSpot/TouristSpot';
 
 class Routes extends Component {
-    state = {  }
+    state = { 
+     }
     componentDidMount = () =>{
        let loginFlag =  localStorage.getItem("isUserLoggedIn")
        console.log(loginFlag)
+       this.setState({loginFlag})
+       
     }
     render() { 
         return ( 
@@ -30,7 +33,7 @@ class Routes extends Component {
                     <Route path="/tourist-spot" component={TouristSpot} />
                     <Route path="/feedback" component={Feedback} />
                     <Route path="/geeta-jayanti" component={GeetaJayanti} />
-                    <Redirect from="/" to="/home" />
+                    <Redirect from="/" to="/login" />
                 </Switch>
             <Footer/>
             </BrowserRouter>

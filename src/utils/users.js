@@ -1,23 +1,26 @@
 export let registeredUsers = [
   {
-    username: "ARYAN",
-    password: "aryan",
+    pass: "aryan",
     name: "aryan goyal",
-    phone: 7404052503,
+    phn_no: 7404052503,
     email: "26goyalaryan@gmail.com",
   },
   {
-    username: "ARUN",
-    password: "arun",
+    pass: "arun",
     name: "arun kumar",
-    phone: 7404052502,
+    phn_no: 7404052502,
     email: "25arunkumar@gmail.com",
   },
   {
-    username: "ARPIT",
-    password: "arpit",
+    pass: "vikas",
+    name: "Vikas Tiwari",
+    phn_no:8813969568,
+    email: "25@gmail.com",
+  },
+  {
+    pass: "arpit",
     name: "arpit chugh",
-    phone: 7404052501,
+    phn_no: 7404052501,
     email: "24arpitchugh@gmail.com",
   },
 ];

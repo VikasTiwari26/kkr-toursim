@@ -1,0 +1,17 @@
+.login-input {
+  width: 40%;
+  margin: 0.5rem 30%;
+}
+.register-here {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  margin: auto;
+}
+.register-here a {
+  color: #0000ff;
+}
+.register-here a:hover {
+  color: #f99600;
+  text-decoration: underline;
+}
