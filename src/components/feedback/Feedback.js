@@ -70,7 +70,7 @@ class Feedback extends Component {
           </form>
           <div className="button">
             <button
-              type="reset"
+              type="submit"
               className="button-contact"
               style={{ textAlign: "center" }}
             >

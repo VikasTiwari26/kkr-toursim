@@ -8,6 +8,7 @@ class GeetaJayanti extends Component {
   render() {
     return (
       <div className="main-gita-jynti-cntnr">
+        <ImageSlider />
         <h2 className="title-gita-jynti">GEETA JAYANTI MAHOTSAV</h2>
         <div className="info-cntnr">
           <p className="about-gita-jynti">
@@ -85,6 +86,7 @@ class GeetaJayanti extends Component {
               <a
                 className="laser-show"
                 href="https://www.youtube.com/watch?v=lAQmwlG7yp4&t=8700&autoplay=1"
+                target="_blank"
               >
                 here
               </a>{" "}
@@ -92,6 +94,7 @@ class GeetaJayanti extends Component {
               <a
                 className="cultural-programs"
                 href="https://www.youtube.com/watch?v=lAQmwlG7yp4&t=8700&autoplay=1"
+                target="_blank"
               >
                 click here
               </a>{" "}
