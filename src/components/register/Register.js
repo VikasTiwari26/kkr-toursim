@@ -6,10 +6,10 @@ class Register extends Component {
     name: "",
     phn_no: "",
     email: "",
-    query: "",
     pass: "",
     conf_pass: "",
   };
+
   handleInputChange = (e) => {
     // console.log(e.target.value);
     // console.log(e.target.name);
@@ -20,6 +20,7 @@ class Register extends Component {
     console.log(this.state);
   };
   render() {
+    const { name, phn_no, email, pass, conf_pass } = this.state;
     return (
       <div>
         <div className="main-contact-cntnr">
@@ -61,24 +62,17 @@ class Register extends Component {
                 />
               </div>
               <div className="form-group">
-                <textarea
-                  className="contact-input"
-                  placeholder="Your query"
-                  value={query}
-                  name="query"
-                  onChange={this.handleInputChange}
-                ></textarea>
-              </div>
-              <div className="contact-input">
                 <input
+                  className="contact-input"
                   type="password"
                   placeholder="Password"
                   value={pass}
                   name="pass"
                 />
               </div>
-              <div className="contact-input">
+              <div className="form-group">
                 <input
+                  className="contact-input"
                   type="password"
                   placeholder="Confirm password"
                   value={conf_pass}
