@@ -15,6 +15,11 @@ import feedbackBg from "./bg.jpg";
 import gitaJayantiPic1 from "./gitaJayanti/img1.jpeg";
 import gitaJayantiPic2 from "./gitaJayanti/img2.jpg";
 
+import gitaJayantiPic3 from "./gitaJayanti/2.jpg";
+import gitaJayantiPic4 from "./gitaJayanti/3.jpg";
+import gitaJayantiPic5 from "./gitaJayanti/4.jpg";
+import gitaJayantiPic6 from "./gitaJayanti/5.jpg";
+import gitaJayantiPic7 from "./gitaJayanti/6.jpg";
 export {
   icon,
   brahmSarovarTemple,
@@ -32,4 +37,9 @@ export {
   feedbackBg,
   gitaJayantiPic1,
   gitaJayantiPic2,
+  gitaJayantiPic3,
+  gitaJayantiPic4,
+  gitaJayantiPic5,
+  gitaJayantiPic6,
+  gitaJayantiPic7,
 };

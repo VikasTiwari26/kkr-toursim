@@ -32,7 +32,7 @@ class Covid extends Component {
   getCovidNationWiseData = async () => {
     try {
       const response = await axios.get(api.covidIndiaStatus);
-      // console.log(response.data.cases_time_series)
+      // console.log(response.data.cases_time_series);
       // console.log(response.data.cases_time_series[response.data.cases_time_series.length-1])
       let nationalCovidData = response.data.cases_time_series.map((item) => {
         let obj = {};
@@ -44,13 +44,18 @@ class Covid extends Component {
         response.data.cases_time_series[
           response.data.cases_time_series.length - 1
         ].totalconfirmed;
-      // console.log(nationalCovidData)
+      // console.log(nationalCovidData);
       // console.log(totalNationWiseCases)
       this.setState({ nationalCovidData, totalNationWiseCases });
     } catch (err) {
       console.log(err);
     }
   };
+
+  formatNumberWithComma = (x) => {
+    x = x.tostring().replace(/B(?=(d{3})+(?!d))/g, ",");
+  };
+
   render() {
     return (
       <div>

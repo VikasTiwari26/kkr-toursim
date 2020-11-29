@@ -20,8 +20,8 @@ export let touristSpotData = [
     image: brahmSarovar,
     about: [
       "Brahma Sarovar is an ancient water pool sacred to Hinduism in Thanesar, in the state of Haryana in North India. Hinduism lays emphasis on taking bath for internal and external purity. Most religious sites have water pools or sarovar in or near the Hindu temple and Sikh gurdwara. The Hindu genealogy registers at Kurukshetra, Haryana are kept here.",
-      "According to stories of myths, Lord Brahma created the universe from the land of Kurukshetra after a huge yajna. The Brahma Sarovar here is believed to be the cradle of civilization. he sarovar is also mentioned in the eleventh century AD memoirs of Al Beruni, called 'Kitab-ul-Hind'. T he sarovar also has a mention in Mahabharata citing its use by Duryodhana to hide himself underwater on the concluding day of the war. A sacred shrine dedicated to Lord Shiva stands within the sarovar, accessible by a small bridge. According to scriptures, bathing in this sarovar increases the sanctity of performing the 'ashvamedh yajna' The pools are especially crowded during solar eclipses because it is believed that bathing there during the solar eclipse is an ablution of sin.",
-      "On 29 March 2006, a solar eclipse was visible in the region and it drew an estimated one million people to the site. Whenever an eclipse is visible from the Sarovar, hundreds of thousands gather in the pools.",
+      "According to stories of myths, Lord Brahma created the universe from the land of Kurukshetra after a huge yajna. The Brahma Sarovar here is believed to be the cradle of civilization. he sarovar is also mentioned in the eleventh century AD memoirs of Al Beruni, called Kitab-ul-Hind. T he sarovar also has a mention in Mahabharata citing its use by Duryodhana to hide himself underwater on the concluding day of the war. A sacred shrine dedicated to Lord Shiva stands within the sarovar, accessible by a small bridge. According to scriptures, bathing in this sarovar increases the sanctity of performing the 'ashvamedh yajna' The pools are especially crowded during solar eclipses because it is believed that bathing there during the solar eclipse is an ablution of sin.",
+      " On 29 March 2006, a solar eclipse was visible in the region and it drew an estimated one million people to the site. Whenever an eclipse is visible from the Sarovar, hundreds of thousands gather in the pools.",
     ],
   },
   {
@@ -33,7 +33,7 @@ export let touristSpotData = [
     about: [
       "Sheikh Chilli's Tomb is complex of structures located in Thanesar, Haryana, India, near Kurukshetra. It includes two tombs, a madarsa, mughal gardens and various subsequent feature.",
       "There is a mosque called Pather Masjid (Stone Mosque) that was built in red sandstone. On the north side are the Mughal Gardens. The ceiling of the mosque, resting on pillars is decorated with floral designs carved in low relief. The pillars are also profusely decorated with floral designs, while the bases over the mouldings show chaitya-window motifs. The Qibla in the centre of the western wall is flanked on either side by two arched niches inscribed with verses from the Quran. The masonry terrace forming the front court was added at a later date.",
-      "An Archaeological Museum run by Archaeological Survey of India, is also situated within the complex. The monument was protected and declared as of National importance under section 4 of the Ancient Monument and Archaeological Sites and Remains Act 1958; Vide No. 8516, dated 27-03-1919.[6] It consists of archaeological finds,like seals and sealings, terracotta figurines, plaques, ornaments, and swords from sites in nearby regions of Kurukshetra and Bhagwanpura. These objects are notably from Kushana (1st -3rd century CE), Gupta period(4th - 6th CE), and from post Gupta period on Vardhana dynasty period (6th -7th CE).",
+      "An Archaeological Museum run by Archaeological Survey of India, is also situated within the complex. The monument was protected and declared as of National importance under section 4 of the Ancient Monument and Archaeological Sites and Remains Act 1958; Vide No. 8516, dated 27-03-1919. ",
     ],
   },
   {
@@ -44,7 +44,7 @@ export let touristSpotData = [
     image: panorama,
     about: [
       "Kurukshetra Panorama and Science Centre is a unique Centre that combines science with religion. The main attraction of the Centre is a life-like panorama of the epic battle of Kurukshetra that showcases Mahabharata war with scientific explanations justifying every episode in the war. The magnificent two-storied building of the Centre has cylindrical walls. The Centre has an interesting exhibition called 'India: A Heritage in Science, Technology and Culture', consisting of working and interactive exhibits on ancient Indian concept of properties of matter, structure of atom, geometry, arithmetical rules, astronomy, medicine and surgery.",
-      "The tall and cylindrical building has elegant architecture and ambience. On the centre of the cylindrical hall, there are paintings 34-feet in heightdepicting various episodes of Mahabharata from confrontation between the Pandavas and the Kauravas to the diorama of the battleground that epitomises the carnage realistically. The chanting of Gita and distant war cries blended with lighting illusions end a perfect ambience. A Science Park has also been set up outside the Centre's building. It is a refreshing concept of science learning for children through fun and enjoyment. Not only children but also adults get attracted to these aesthetically placed exhibits in the greenery of the park.",
+      "The tall and cylindrical building has elegant architecture and ambience. On the centre of the cylindrical hall, there are paintings 34-feet in heightdepicting various episodes of Mahabharata from confrontation between the Pandavas and the Kauravas to the diorama of the battleground that epitomises the carnage realistically. The chanting of Gita and distant war cries blended with lighting illusions end a perfect ambience.",
     ],
   },
   {
@@ -81,7 +81,7 @@ export let touristSpotData = [
     title: "RAJA HARSH KA TILA",
     image: harshTilla,
     about: [
-      "The archaeological excavations of this site have thrown significant light on successive remains of an ancient city settlement. The site spread over an area of 1kmx750 m. This site was excavated by Shri B.M.Pandey of Archaeological Survey of India. A few potsherds of Painted Grey Ware found from the lowest level of the site indicate the existence of a settlement before starting a continuous habitation at the site since Christian era. The excavated material ranging from Circa 1st century AD to 19th century was divided in six cultural periods.",
+      "The archaeological excavations of this site have thrown significant light on successive remains of an ancient city settlement. The site spread over an area of 1km x 750 m. This site was excavated by Shri B.M.Pandey of Archaeological Survey of India. A few potsherds of Painted Grey Ware found from the lowest level of the site indicate the existence of a settlement before starting a continuous habitation at the site since Christian era. The excavated material ranging from Circa 1st century AD to 19th century was divided in six cultural periods. The major discovery of the post-Gupta period is represented by brick structures associated with 'Red Polished Ware' including a Mughal period garden complex on the Charbagh pattern.",
     ],
   },
   {
@@ -91,6 +91,8 @@ export let touristSpotData = [
     image: dharohar,
     about: [
       "In its golden jubilee year, the Kurukshetra University established within the campus, Dharohar, a museum to showcase the unique archeological, cultural and architectural heritage of Haryana. It also has an open-air theatre for cultural performances.Here , you can just expierence the heritage of Haryana very easily and in creative way.",
+      "There is open-air theatre for Haryanavi folk art, music and dance performances. The museum has 23 sections and galleries showcasing different aspects of Harynavi culture:",
+      "The Kurukshetra University: A Glimpse of History , War-Heroes , Freedom Fighters , Architectural Heritage of Haryana , Archaeological Heritage of Haryana , Folk Musical Instruments of Haryana , Wall Paintings , Manuscripts , Gher (Cattle Shed) , Agriculture & Folk Festivals , Water Heritage of Haryana , Hukka and many other.",
     ],
   },
   {
@@ -111,8 +113,6 @@ export let touristSpotData = [
       "The inauguration of Tirupati Balaji (Lord Vishnu) temple on July 2 is set to give religious tourism in the holy city of Kurukshetra a major boost. Haryana CM Manohar Lal Khattar inaugurated the grand temple established at the historic Brahmasarovar in Thanesar, Kurukshetra. Special prayers were held at the temple following which it has been declared open for devotees. The doors of the temple shall remain open from 6 am till 9 pm.",
       "Now Lord Tirupati Balaji’s devotees from Haryana or North India can visit Kurukshetra to seek blessings from Lord Balaji instead of going to Tirupati in Andhra Pradesh.",
       "This temple is made with the estimated cost of INR 40 crores and is beautiful example of state of art architecture. The temple is open for the public from morning 6 AM to 9 PM in the night. The temple is constructed under the guidance of Tirumala Tirupati Devasthanams, abbreviated as TTD, is an independent trust which manages the Tirumala Venkateswara Temple at Tirumala, Andhra Pradesh. The temple is located near Brahma Srover Kurukshetra and covers approximately 5.5 acres of land. The temple looks very much similar to the Tirumala Venkateswara Temple Andhra Pradesh. The devotion of the public for this temple will be same as of the southern one. In the coming year there is a huge crowd of devotees from north India is expected to visit this temple every year here in Kurukshetra.",
-      "Venkateswara Tirupati Balaji Temple Kurukshetra is located near Brahma Sarovar and in village Kheri Markanda, Kurukshetra.",
-      "One can reach the temple very easily from within the city. First one need to reach Kurukshetra and then from railway station or bust stand the facility of auto rikshaw and three-wheeler auto scookters is available to the temple. .Tirupati Balaji Temple is open for all public from morning 6 AM to night 9 PM.",
     ],
   },
 ];

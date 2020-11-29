@@ -17,14 +17,18 @@ class TouristSpot extends Component {
             this.state.spots.map((item, index) => (
               <div className="about-place" key={index}>
                 <h2 className="heading-tourist-spot">{item.title}</h2>
-                <div className="image-cntnr">
-                  <img src={item.image} width={item.w} height={item.h} />
+                <div className="complete-info">
+                  <div className="image-cntnr">
+                    <img src={item.image} width={item.w} />
+                  </div>
+                  <div className="spot-info">
+                    {item.about.map((data, index) => (
+                      <p className="about-txt" key={index + data}>
+                        {data}
+                      </p>
+                    ))}
+                  </div>
                 </div>
-                {item.about.map((data, index) => (
-                  <p className="about-txt" key={index + data}>
-                    {data}
-                  </p>
-                ))}
               </div>
             ))}
         </div>

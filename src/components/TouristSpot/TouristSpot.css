@@ -1,16 +1,25 @@
 .image-cntnr {
-  width: 70%;
-
+  width: 500px;
+  height: auto;
   margin: auto;
 }
 
 .about-txt {
   width: 90%;
   margin: auto;
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   margin: 1rem auto;
 }
 .title-tourist-spot {
   text-align: center;
   font-size: 2.5rem;
+}
+.complete-info {
+  display: flex;
+  margin-left: 15%;
+  margin-right: 12%;
+}
+.spot-info {
+  width: 800px;
+  /* border: 1px solid black; */
 }
