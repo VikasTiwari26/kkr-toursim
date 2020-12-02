@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {registeredUsers} from "../../utils/users";
+import { registeredUsers } from "../../utils/users";
 
 class Register extends Component {
   state = {
@@ -8,38 +8,70 @@ class Register extends Component {
     email: "",
     pass: "",
     conf_pass: "",
-    registerErr:false
+    registerErr: false,
+    errMSG: "",
   };
 
-  componentDidMount =()=>{
-    window.scroll(0,0)
-  }
+  componentDidMount = () => {
+    window.scroll(0, 0);
+  };
 
-  validateBtn =()=>{
+  validateBtn = () => {
     const { name, phn_no, email, pass, conf_pass } = this.state;
-    return name.length>0&&phn_no.length>0&&email.length>0&&pass.length>0&&conf_pass.length>0&&(pass===conf_pass)
-  }
+    return (
+      name.length > 0 &&
+      phn_no.length > 0 &&
+      email.length > 0 &&
+      pass.length > 0 &&
+      conf_pass.length > 0 &&
+      pass === conf_pass
+    );
+  };
 
   handleInputChange = (e) => {
     // console.log(e.target.value);
     // console.log(e.target.name);
     this.setState({ [e.target.name]: e.target.value });
-    console.log(this.validateBtn())
+    console.log(this.validateBtn());
   };
   handleSubmit = (e) => {
+    const { name, phn_no, email, pass, conf_pass } = this.state;
     e.preventDefault();
-    this.setState({registerErr:false})
-    console.log(this.state);
-    let user = this.state
-    let existingUser = registeredUsers.find(registered =>registered.phn_no==user.phn_no)
-    if(existingUser){
-      this.setState({registerErr:true})
-    }else{
-      registeredUsers.push(user)
-      console.log(registeredUsers)
-      this.props.history.push("/login")
+    let user = this.state;
+    let existingUser = registeredUsers.find(
+      (registered) => registered.phn_no == user.phn_no
+    );
+
+    // console.log(this.state);
+    if (existingUser) {
+      this.setState({
+        registerErr: true,
+        errMsg: "User already exists with this phone number",
+      });
+    } else {
+      if (phn_no.length != 10) {
+        this.setState({
+          registerErr: true,
+          errMsg: "Phone number must be of 10-Digits",
+        });
+      } else if (typeof email !== "undefined") {
+        let pattern = new RegExp(
+          /^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i
+        );
+        if (!pattern.test(email)) {
+          this.setState({
+            registerErr: true,
+            errMsg: "Please enter a valid email address.",
+          });
+        }
+      } else {
+        registeredUsers.push(user);
+        console.log(registeredUsers);
+        this.props.history.push("/login");
+      }
     }
   };
+
   render() {
     const { name, phn_no, email, pass, conf_pass } = this.state;
     return (
@@ -102,9 +134,16 @@ class Register extends Component {
                   onChange={this.handleInputChange}
                 />
               </div>
-              {this.state.registerErr?<p style={{color:"red"}}>User already exists with this phone number</p>:null}
+              {this.state.registerErr ? (
+                <p style={{ color: "red" }}>{this.state.errMsg}</p>
+              ) : null}
               <div className="btn-cntnr">
-                <button className="button-contact" disabled={!this.validateBtn()}>Register</button>
+                <button
+                  className="button-contact"
+                  disabled={!this.validateBtn()}
+                >
+                  Register
+                </button>
               </div>
             </form>
           </div>

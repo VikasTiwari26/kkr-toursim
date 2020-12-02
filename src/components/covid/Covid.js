@@ -148,10 +148,10 @@ class Covid extends Component {
             but must follow all safety precautions like ,
           </p>
           <ul className="precList">
-            <li>wear a face mask</li>
-            <li>maintain social distancing</li>
-            <li>must pay attention to cleanliness of the surroundings</li>
-            <li>do not litter waste here and there</li>
+            <li>Wear a face mask</li>
+            <li>Maintain social distancing</li>
+            <li>Must pay attention to cleanliness of the surroundings</li>
+            <li>Do not litter waste here and there</li>
             <li>Regularly wash hands with soap or alcohol-based sanitizer.</li>
           </ul>
           <p className="GitaJayanti">

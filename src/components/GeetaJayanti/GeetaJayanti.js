@@ -8,7 +8,9 @@ class GeetaJayanti extends Component {
   render() {
     return (
       <div className="main-gita-jynti-cntnr">
-        <ImageSlider />
+        <div className="imgsldrDiv">
+          <ImageSlider />
+        </div>
         <h2 className="title-gita-jynti">GEETA JAYANTI MAHOTSAV</h2>
         <div className="info-cntnr">
           <p className="about-gita-jynti">

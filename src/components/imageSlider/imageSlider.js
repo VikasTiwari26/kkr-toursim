@@ -21,7 +21,6 @@ class ImageSlider extends Component {
       dots: true,
       infinite: true,
       speed: 500,
-      centerMode: true,
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
